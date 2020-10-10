@@ -1,13 +1,7 @@
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
 let randomNumber2 = Math.floor(Math.random() * 6) + 1;
-let randomImg1 =
-  "Dicee Challenge - Starting Files/Dicee Challenge - Starting Files/images/dice" +
-  randomNumber1 +
-  ".png";
-let randomImg2 =
-  "Dicee Challenge - Starting Files/Dicee Challenge - Starting Files/images/dice" +
-  randomNumber2 +
-  ".png";
+let randomImg1 = "images/dice" + randomNumber1 + ".png";
+let randomImg2 = "images/dice" + randomNumber2 + ".png";
 
 document
   .querySelector('img[alt="Player 1 Dice"]')
