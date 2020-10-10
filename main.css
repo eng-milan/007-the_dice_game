@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey;
+  height: 100vh;
+}
+h1 {
+  font-family: serif;
+  font-size: 4rem;
+  color: greenyellow;
+  height: 20vh;
+  margin: 20px 0;
+}
+.dice-box {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  padding: 0 20px;
+}
+.player1-box,
+.player2-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+}
+h2 {
+  font-family: serif;
+  font-size: 2rem;
+  color: greenyellow;
+}
+img[alt="Player 1 Dice"],
+img[alt="Player 2 Dice"] {
+  width: 70%;
+}
+footer {
+  height: 10vh;
+}
